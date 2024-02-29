@@ -4,9 +4,12 @@
     border: border-box;
 }
 .navbar{
+    display: flex;
+    flex-direction: row;
      height: 60px;
      background-color: #0F1111;
      color: white;
+     align-items: center;
 }
 .nav-logo{
     height:50px;
@@ -15,6 +18,29 @@
 .logo{
     background-image: url("../textures/amazon_logo.png");
     background-size: cover;
-    height:50px;
+    height:100%;
     width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+    transition: all 0.2s ease-in;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+/* box 2 */
+.address-icon{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;  /* cross align */
+}
+.address-first{
+ color:#CCCCCC;
+ font-size: .85rem;
+ margin-left: 20px;
+}
+.address-second{
+    color:#FFFFFF;
+    font-size: 1rem;
+    margin-left: 10px;
 }
