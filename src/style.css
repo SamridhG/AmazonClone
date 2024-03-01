@@ -10,6 +10,7 @@
      background-color: #0F1111;
      color: white;
      align-items: center;
+     justify-content: space-evenly;
 }
 .nav-logo{
     height:50px;
@@ -54,6 +55,10 @@
     height: 40px;
     border-radius: 3px;
 }
+.nav-search:hover{
+    border: 3px solid  #febd68;
+    border-radius: 4px;
+}
 .search-select{
     border-top-left-radius: 3px;
     border-bottom-left-radius:3px ;
@@ -76,4 +81,22 @@
     background-color: #febd68;
     border-top-right-radius: 3px;
     border-bottom-right-radius: 3px;
+    color: #0F1111;
+}
+/* Box 2 */
+span{
+  font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+ font-weight: 700px;       /* Darker tone    */
+}   
+
+/* box 6 nav cart me jitne <i> h unko target */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700px;
 }
