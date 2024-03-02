@@ -149,3 +149,62 @@ span{
 .hero-message a{
     color: #007185;
 }
+/* shop section */
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width:23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.box-content{
+    margin-right: 1rem;
+    margin-left:1rem;
+}
+.box-content p{
+    color: #007185;
+}
+.box-content p:hover{
+    text-decoration: underline;
+}
+.box-image{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box1 .box-image{
+    background-image: url(../textures/box1_image.jpg);   
+}
+.box2 .box-image{
+    background-image: url(../textures/box2_image.jpg);   
+}
+.box3 .box-image{
+    background-image: url(../textures/box3_image.jpg);   
+}
+
+.box4 .box-image{
+    background-image: url(../textures/box4_image.jpg);   
+}
+.box5 .box-image{
+    background-image: url(../textures/box5_image.jpg);   
+}
+.box6 .box-image{
+    background-image: url(../textures/box6_image.jpg);   
+}
+.box7 .box-image{
+    background-image: url(../textures/box7_image.jpg);   
+}
+
+.box8 .box-image{
+    background-image: url(../textures/box8_image.jpg);   
+}
+
+
